@@ -1,0 +1,12 @@
+{
+  "name": "C3",
+  "displayName": "C3",
+  "expo": {
+    "name": "C3",
+    "slug": "C3",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
