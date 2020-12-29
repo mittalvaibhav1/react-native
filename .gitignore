@@ -4,6 +4,7 @@
 
 # Xcode
 #
+.eslintcache
 build/
 *.pbxuser
 !default.pbxuser
