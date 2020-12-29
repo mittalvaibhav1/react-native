@@ -1,10 +1,10 @@
 # OSX
 #
 .DS_Store
-
+.eslintcache
 # Xcode
 #
-.eslintcache
+
 build/
 *.pbxuser
 !default.pbxuser
