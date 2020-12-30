@@ -6,7 +6,7 @@ function Menu(props) {
 
     const renderMenuItem = ({ item }) => {
         return (
-            <ListItem bottomDivider>
+            <ListItem bottomDivider onPress = {() => props.onDishSelect(item.id)} >
                 <Avatar source = { require('./images/uthappizza.png') }/>
                 <ListItem.Content>
                     <ListItem.Title>{ item.name }</ListItem.Title>

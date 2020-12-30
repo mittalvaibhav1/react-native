@@ -8,13 +8,13 @@ const RenderDish = (props) => {
     if(dish != null) {
         return (  
             <Card>
-                <Card.title>{ dish.title }</Card.title>
-                <Card.Divider />
-                <Image source = { require('./images/uthappizza.png') } />
+                <Card.Title>{ dish.name }</Card.Title>
+                <Card.Image source = { require('./images/uthappizza.png') } />
                 <Text style = {{margin: 10}}>
                     {dish.description}
                 </Text>
             </Card>
+            
         );
     }
     else {
@@ -23,5 +23,10 @@ const RenderDish = (props) => {
         )
     }
 }
+const Dishdetail = (props) => {
+    return (
+        <RenderDish dish = {props.dish} ></RenderDish>
+    )
+}
 
-export default RenderDish;
+export default Dishdetail;
